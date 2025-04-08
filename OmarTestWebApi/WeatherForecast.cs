@@ -8,6 +8,6 @@ namespace OmarTestWebApi
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
-        public string? SummaryOfWeather { get; set; }
+        public string? WeatherSummary { get; set; }
     }
 }
